@@ -55,5 +55,6 @@
         android:layout_below="@+id/editTextPassword"
         android:layout_alignEnd="@+id/editTextPassword"
         android:layout_alignStart="@+id/editTextPassword"
+        android:background="@drawable/fundo_botao"
         />
 </RelativeLayout>

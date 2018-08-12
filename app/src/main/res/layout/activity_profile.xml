@@ -75,16 +75,19 @@
         android:layout_alignStart="@+id/editUserName"
         android:layout_alignEnd="@+id/editUserName"
         android:layout_marginTop="23dp"
-        android:id="@+id/saveUserInfo" />
+        android:id="@+id/saveUserInfo"
+        android:background="@drawable/fundo_botao"/>
     <Button
         android:text="Next"
+        android:layout_marginTop="2dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/saveUserInfo"
         android:gravity="center"
         android:layout_alignStart="@+id/editUserName"
         android:layout_alignEnd="@+id/editUserName"
-        android:id="@+id/userList" />
+        android:id="@+id/userList"
+        android:background="@drawable/fundo_botao"/>
 </RelativeLayout>
 
 </LinearLayout>

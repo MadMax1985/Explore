@@ -13,7 +13,6 @@
     android:background="@drawable/gradient_background"
     tools:context="android.ufrpe.com.explore.Login">
 
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,16 +47,19 @@
         android:id="@+id/login"
         android:layout_below="@+id/editTextPassword"
         android:layout_alignStart="@+id/editTextPassword"
-        android:layout_alignEnd="@+id/editTextPassword" />
+        android:layout_alignEnd="@+id/editTextPassword"
+        android:background="@drawable/fundo_botao"/>
 
     <Button
         android:text="SignUp"
+        android:layout_marginTop="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/signUp"
         android:layout_below="@+id/login"
         android:layout_alignStart="@+id/login"
-        android:layout_alignEnd="@+id/login" />
+        android:layout_alignEnd="@+id/login"
+        android:background="@drawable/fundo_botao"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -66,5 +68,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_name"
+        android:layout_above="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
 
 </RelativeLayout>
