@@ -27,6 +27,7 @@
         android:layout_height="50dp" />
     
     <TextView
+        android:id="@+id/contactName"
         android:text="Contact Name"
         android:textSize="40sp"
         android:layout_toRightOf="@id/social_icon"
